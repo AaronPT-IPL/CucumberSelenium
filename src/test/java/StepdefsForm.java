@@ -29,7 +29,7 @@ public class StepdefsForm {
         System.setProperty("webdriver.gecko.driver", "drivers\\geckodriver.exe");
         System.setProperty("webdriver.edge.driver", "drivers\\MicrosoftWebDriver.exe");
         System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
-        System.setProperty("phantomjs.binary.path", "drivers\\phantomjs.exe"); //
+        System.setProperty("phantomjs.binary.path", "phantomjs2"); //
 
         if (driver == null) {
             //driver = new HtmlUnitDriver();
