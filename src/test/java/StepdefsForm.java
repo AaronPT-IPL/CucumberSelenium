@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,7 +32,8 @@ public class StepdefsForm {
         System.setProperty("phantomjs.binary.path", "drivers\\phantomjs.exe"); //
 
         if (driver == null) {
-            driver = new HtmlUnitDriver();
+            //driver = new HtmlUnitDriver();
+            driver = new PhantomJSDriver();
             //driver = new ChromeDriver();
         }
     }

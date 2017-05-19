@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -59,8 +60,8 @@ public class StepdefsGoogle {
         // driver = new FirefoxDriver();
         // driver = new EdgeDriver();
          //driver = new ChromeDriver();
-         driver = new HtmlUnitDriver();
-        // driver = new PhantomJSDriver();
+         //driver = new HtmlUnitDriver();
+         driver = new PhantomJSDriver();
 
     }
 
