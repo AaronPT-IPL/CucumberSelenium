@@ -58,8 +58,8 @@ public class StepdefsGoogle {
 
         // driver = new FirefoxDriver();
         // driver = new EdgeDriver();
-         driver = new ChromeDriver();
-        // driver = new HtmlUnitDriver();
+         //driver = new ChromeDriver();
+         driver = new HtmlUnitDriver();
         // driver = new PhantomJSDriver();
 
     }
