@@ -55,7 +55,7 @@ public class StepdefsGoogle {
         System.setProperty("webdriver.chrome.driver",
                 "drivers\\chromedriver.exe");
         System.setProperty("phantomjs.binary.path",
-                "drivers\\phantomjs.exe");
+                "phantomjs.exe");
 
         // driver = new FirefoxDriver();
         // driver = new EdgeDriver();
